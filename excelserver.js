@@ -34,6 +34,7 @@ xlsxx(file, function(err,data) {
     //console.log(jsonDataArray(data));
 	//console.log(file);
 	//console.log(data);
+	console.log('kwulahgl');
     queries.queryInsert(db,data,'xlsx');
     sql.close();
    //console.log(data.length);
